@@ -34,9 +34,10 @@ vm_size_t getFreeMemory() {
     return vmstat.free_count * pagesize;
 }
 
-- (void)memoryInfo
++ (void)memoryInfo
 {
     NSLog(@"useMemery:%lu", getUsedMemory());
     NSLog(@"freeMemery:%lu", getFreeMemory());
 }
+
 @end

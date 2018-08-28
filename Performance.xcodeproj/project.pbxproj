@@ -14,6 +14,7 @@
 		0EBA59701F0E0D4A00CE88A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA596F1F0E0D4A00CE88A0 /* Assets.xcassets */; };
 		0EBA59731F0E0D4A00CE88A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA59711F0E0D4A00CE88A0 /* LaunchScreen.storyboard */; };
 		0EBA597D1F0E0DC000CE88A0 /* memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA597C1F0E0DC000CE88A0 /* memory.m */; };
+		0EBA59801F13C65F00CE88A0 /* CPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA597F1F13C65F00CE88A0 /* CPU.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		0EBA59741F0E0D4A00CE88A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EBA597B1F0E0DC000CE88A0 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
 		0EBA597C1F0E0DC000CE88A0 /* memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memory.m; sourceTree = "<group>"; };
+		0EBA597E1F13C65F00CE88A0 /* CPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPU.h; sourceTree = "<group>"; };
+		0EBA597F1F13C65F00CE88A0 /* CPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPU.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				0EBA597B1F0E0DC000CE88A0 /* memory.h */,
 				0EBA597C1F0E0DC000CE88A0 /* memory.m */,
+				0EBA597E1F13C65F00CE88A0 /* CPU.h */,
+				0EBA597F1F13C65F00CE88A0 /* CPU.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				0EBA596B1F0E0D4A00CE88A0 /* ViewController.m in Sources */,
 				0EBA59681F0E0D4A00CE88A0 /* AppDelegate.m in Sources */,
 				0EBA59651F0E0D4A00CE88A0 /* main.m in Sources */,
+				0EBA59801F13C65F00CE88A0 /* CPU.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,15 +1,15 @@
 //
-//  memory.h
+//  CPU.h
 //  Performance
 //
-//  Created by honglianglu on 06/07/2017.
+//  Created by honglianglu on 10/07/2017.
 //  Copyright © 2017 cc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface memory : NSObject
+@interface CPU : NSObject
 
-+ (void)memoryInfo;
++ (void)cpuInfo;
 
 @end
